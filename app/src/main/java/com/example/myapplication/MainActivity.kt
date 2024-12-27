@@ -23,7 +23,7 @@ class MainActivity : ComponentActivity() {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Column {
                         Greeting(
-                            name = "Android testing",
+                            name = "Android testing 123",
                             modifier = Modifier.padding(innerPadding)
                         )
                         Text("Testing")
